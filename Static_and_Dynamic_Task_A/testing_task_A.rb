@@ -21,7 +21,7 @@ class CardGame
     total # should have been declared equals 0
     for card in cards
       total += card.value
-      return "You have a total of" + total # you can't convert a String into a Integer
+      return "You have a total of" + total # you can't convert an String into a Integer
   end
 
 end
